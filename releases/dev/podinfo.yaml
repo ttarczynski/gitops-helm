@@ -11,7 +11,7 @@ spec:
   chartGitPath: podinfo
   releaseName: podinfo-dev
   values:
-    image: ttarczynski/podinfo:dev-permdesi
+    image: ttarczynski/podinfo:dev-gcavofdx
     replicaCount: 1
     dryRun: false
     hpa:
