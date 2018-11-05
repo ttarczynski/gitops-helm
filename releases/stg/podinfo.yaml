@@ -11,8 +11,9 @@ spec:
   chartGitPath: podinfo
   releaseName: podinfo-rc
   values:
-    image: stefanprodan/podinfo:stg-9ij63o4c
+    image: ttarczynski/stg-dttfjnq6
     replicaCount: 2
+    dryRun: false
     hpa:
       enabled: true
       maxReplicas: 10
